@@ -47,15 +47,6 @@ cd nullcore
 2. Set build configuration to x64
 3. Build the solution (Ctrl+Shift+B)
 
-### Project Structure
-Nullcore/
-├── NullcoreEngine/     # Engine library
-│   ├── src/
-│   │   ├── core/       # Core systems
-│   │   └── renderer/   # Rendering system
-│   └── vendor/         # Third-party libraries
-└── BytefireGame/       # Example game project
-
 ### Usage
 
 Documentation and examples coming soon.
