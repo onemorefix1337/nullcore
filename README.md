@@ -53,8 +53,8 @@ Documentation and examples coming soon.
 
 ### License
 This project is licensed under the license - see the LICENSE file for details.
-Authors
 
+### Authors
 One more fix - Core Developer
 PluvCoder1337 - Core Developer
 
