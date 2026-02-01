@@ -63,5 +63,7 @@ Contributions are welcome. Please read CONTRIBUTING.md for details on our code o
 
 ### Acknowledgments
 GLFW - Window and input handling
+
 GLAD - OpenGL loader
+
 GLM - Mathematics library
