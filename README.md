@@ -55,7 +55,7 @@ Documentation and examples coming soon.
 This project is licensed under the license - see the LICENSE file for details.
 
 ### Authors
-One more fix - Core Developer \n
+One more fix - Core Developer 
 PluvCoder1337 - Core Developer
 
 ### Contributing
