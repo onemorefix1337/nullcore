@@ -39,7 +39,7 @@ vcpkg install glm:x64-windows
 ### Compilation
 Clone the repository
 ```
-git clone https://github.com/yourusername/nullcore.git
+git clone https://github.com/onemorefix1337/nullcore.git
 
 cd nullcore
 ```
