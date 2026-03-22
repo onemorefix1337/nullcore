@@ -1,0 +1,7 @@
+C:\Projects\NullcoreEngine\NullcoreEngine.cpp;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\NullcoreEngine.obj
+C:\Projects\NullcoreEngine\src\NullcorePCH.cpp;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\NullcorePCH.obj
+C:\Projects\NullcoreEngine\src\Nullcore\Core\Application.cpp;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\Application.obj
+C:\Projects\NullcoreEngine\src\Nullcore\Core\Core.cpp;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\Core.obj
+C:\Projects\NullcoreEngine\src\Nullcore\Core\Log.cpp;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\Log.obj
+C:\Projects\NullcoreEngine\src\Platform\Windows\WindowsWindow.cpp;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\WindowsWindow.obj
+C:\Projects\NullcoreEngine\vendor\glad\src\glad.c;C:\Projects\NullcoreEngine\NullcoreEngine\x64\Debug\glad.obj

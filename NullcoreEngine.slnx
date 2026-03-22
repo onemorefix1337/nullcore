@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../Sandbox/Sandbox.vcxproj" Id="40c689fd-439e-4277-a0df-fb7a5cf66d36" />
+  <Project Path="NullcoreEngine.vcxproj" Id="1c1ffbca-a31d-4230-86bb-3f42e44e0cf5" />
+</Solution>

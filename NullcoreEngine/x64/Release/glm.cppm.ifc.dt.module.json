@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "NullcoreEngine\\x64\\Release\\glm.obj",
+            "outputs": [
+                "NullcoreEngine\\x64\\Release\\glm.cppm.ifc.dt.module.json",
+                "NullcoreEngine\\x64\\Release\\glm.cppm.ifc.dt.d.json",
+                "NullcoreEngine\\x64\\Release\\glm.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "glm",
+                    "source-path": "c:\\projects\\nullcoreengine\\vendor\\glm\\glm\\glm.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
