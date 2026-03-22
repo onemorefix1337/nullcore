@@ -1,72 +1,83 @@
 # Nullcore Engine
 
-A modern, open-source game engine written in C++. 
+A custom 3D game engine built from scratch in C++20. Developed by [OneMoreFix](https://github.com/onemorefix1337) and [PluvCoder1337](https://github.com/pluvcoder1337) as an open-source project.
 
-## Overview
-
-Nullcore is a lightweight 3D game engine designed for flexibility and performance. Built with modern C++ practices and a modular architecture.
+---
 
 ## Features
 
-- **Modern C++20** - Utilizes latest C++ standards
-- **Cross-platform** - Windows support (Linux/macOS planned)
-- **OpenGL 4.6** - Modern graphics API
-- **Modular Architecture** - Clean separation of engine systems
-- **Developer Tools** - Integrated debugging and profiling tools
+- **Entity Component System** — powered by EnTT. Transform, MeshRenderer, Camera, Light, NativeScript components
+- **OpenGL 4.6 Core Profile** — modern renderer with abstracted RendererAPI, VAO, VBO, shaders, Texture2D via stb_image
+- **Scene System** — runtime and editor update loops, RenderSystem, ScriptSystem, SceneSerializer
+- **Native C++ Scripting** — derive from `ScriptableEntity`, attach to any entity, zero overhead
+- **3 Camera Modes** — Orbit, Free Noclip (WASD + mouse lock), Cube rotation
+- **Event System** — keyboard, mouse, window events dispatched through typed handlers
+- **Layer Stack** — ordered rendering and update layers
 
-## System Requirements
+## Requirements
 
-- Windows 10/11 (64-bit)
-- Visual Studio 2022 or later
-- Graphics card with OpenGL 4.6 support
-- vcpkg package manager
+- Windows 10/11 x64
+- Visual Studio 2022
+- GPU with OpenGL 4.6 support
 
-## Building from Source
+## Building
 
-### Prerequisites
+Dependencies are vendored — no package manager needed.
 
-1. Install [Visual Studio 2022](https://visualstudio.microsoft.com/)
-2. Install [vcpkg](https://github.com/microsoft/vcpkg)
-
-### Dependencies
-
-```bash
-vcpkg install glfw3:x64-windows
-vcpkg install glad:x64-windows
-vcpkg install glm:x64-windows
-```
-
-### Compilation
-Clone the repository
 ```
 git clone https://github.com/onemorefix1337/nullcore.git
-
 cd nullcore
 ```
-1. Open Nullcore.sln in Visual Studio
-2. Set build configuration to x64
-3. Build the solution (Ctrl+Shift+B)
 
-### Usage
+1. Open `NullcoreEngine.slnx` in Visual Studio 2022
+2. Set configuration to **Release x64**
+3. Build solution `Ctrl+Shift+B`
 
-Documentation and examples coming soon.
+The sandbox executable lands in `x64/Release/Sandbox.exe`.
 
-### License
-This project is licensed under the license - see the LICENSE file for details.
+## Sandbox Controls
 
-### Authors
- - One more fix - Core Developer
- - PluvCoder1337 - Core Developer
+| Key | Action |
+|-----|--------|
+| `1` | Cube mode — LMB rotates selected cube |
+| `2` | Orbit mode — LMB orbits camera, Scroll zooms |
+| `3` | Free cam (noclip) |
+| `Tab` | Cycle selected cube |
+| `WASD` | Move in free cam |
+| `Q / E` | Down / Up |
+| `Shift` | Sprint (4× speed) |
+| `RMB` | Hold to look around |
+| `F1` | Toggle mouse lock |
+| `Esc` | Quit |
 
-### Contributing
-Contributions are welcome. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
+## Architecture
 
-### Acknowledgments
-GLFW - Window and input handling
+```
+NullcoreEngine/          ← static library
+├── Core/                ← Application, LayerStack, Log, UUID
+├── Renderer/            ← RendererAPI, Shader, Buffer, Texture, Camera
+├── Scene/               ← Scene, Entity, Components, SceneSerializer
+└── Platform/Windows/    ← GLFW window, OpenGL backend
 
-GLAD - OpenGL loader
+Sandbox/                 ← executable, links NullcoreEngine.lib
+└── SandboxApp.cpp       ← 3 cubes, 3 camera modes, ECS demo
+```
 
-GLM - Mathematics library
+## Vendored Libraries
 
-### WIP
-osla tyt net project porno 
+| Library | Purpose |
+|---------|---------|
+| GLFW | Window and input |
+| GLAD | OpenGL loader |
+| GLM | Math (vectors, matrices, quaternions) |
+| EnTT | Entity-Component registry |
+| stb_image | Texture loading |
+
+## Authors
+
+- **OneMoreFix** — Core Developer
+- **PluvCoder1337** — Core Developer
+
+## License
+
+MIT
