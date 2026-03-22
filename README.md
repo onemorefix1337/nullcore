@@ -1,6 +1,6 @@
 # Nullcore Engine
 
-A custom 3D game engine built from scratch in C++20. Developed by [4eterytyy](https://t.me/eterytyy) and PluvCoder1337 as an open-source project alongside the game **Bytefire**.
+A custom 3D game engine built from scratch in C++20. Developed by [OneMoreFix](https://github.com/onemorefix1337) and [PluvCoder1337](https://github.com/pluvcoder1337) as an open-source project.
 
 ---
 
@@ -75,7 +75,7 @@ Sandbox/                 ← executable, links NullcoreEngine.lib
 
 ## Authors
 
-- **4eterytyy** — Core Developer
+- **OneMoreFix** — Core Developer
 - **PluvCoder1337** — Core Developer
 
 ## License
