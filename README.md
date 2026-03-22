@@ -69,4 +69,4 @@ GLAD - OpenGL loader
 GLM - Mathematics library
 
 ### WIP
-ya ebal osla c++ monsters skeet inv 
+osla tyt net project porno 
