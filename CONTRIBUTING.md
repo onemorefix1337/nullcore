@@ -1,7 +1,7 @@
 # Nullcore Engine Contributors
 
 ## Core Team
-- **One more fix** - Lead Developer, Architecture
+- **OneMoreFix** - Lead Developer, Architecture
 - **PluvCoder1337** - Core Developer, Systems Programming
 
 ## Contributors
