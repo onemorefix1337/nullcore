@@ -55,8 +55,8 @@ Documentation and examples coming soon.
 This project is licensed under the license - see the LICENSE file for details.
 
 ### Authors
-One more fix - Core Developer
-PluvCoder1337 - Core Developer
+ - One more fix - Core Developer
+ - PluvCoder1337 - Core Developer
 
 ### Contributing
 Contributions are welcome. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
