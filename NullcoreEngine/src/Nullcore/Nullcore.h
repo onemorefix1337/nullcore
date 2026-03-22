@@ -1,5 +1,9 @@
 ﻿#pragma once
 
+// ============================================================
+// Nullcore Engine — master include
+// ============================================================
+
 // Core
 #include "Core/Core.h"
 #include "Core/Log.h"
@@ -17,11 +21,6 @@
 #include "Events/KeyEvent.h"
 #include "Events/MouseEvent.h"
 
-// Scene
-#include "Scene/Scene.h"
-#include "Scene/Entity.h"
-#include "Scene/Components.h"
-
 // Renderer
 #include "Renderer/Buffer.h"
 #include "Renderer/VertexArray.h"
@@ -30,6 +29,12 @@
 #include "Renderer/Camera.h"
 #include "Renderer/RenderCommand.h"
 #include "Renderer/Renderer.h"
+
+// Scene / ECS
+#include "Scene/Scene.h"
+#include "Scene/Entity.h"
+#include "Scene/Components.h"
+#include "Scene/ScriptableEntity.h"
 
 // Entry Point
 #include "Core/EntryPoint.h"
